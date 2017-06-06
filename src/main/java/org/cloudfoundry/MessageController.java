@@ -1,4 +1,4 @@
-package org.cloudfoundry.http;
+package org.cloudfoundry;
 
 import java.sql.SQLException;
 import java.util.HashMap;
