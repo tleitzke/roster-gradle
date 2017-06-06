@@ -5,7 +5,7 @@ spring:
     name: roster
   cloud:
     config:
-      uri: ${vcap.services.config.server.credentials.uri}
+      uri: ${vcap.services.config-server.credentials.uri}
   management:
     security:
       enabled: false
