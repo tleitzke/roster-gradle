@@ -7,4 +7,5 @@ applications:
   - route: roster-gradle-invitational-justiciarship.cfapps.io
   services:
   - mydb
+  - config-server
   stack: cflinuxfs2
