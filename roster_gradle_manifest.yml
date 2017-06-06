@@ -1,0 +1,10 @@
+applications:
+- name: roster_gradle
+  instances: 1
+  memory: 1024M
+  disk_quota: 1024M
+  routes:
+  - route: roster-gradle-invitational-justiciarship.cfapps.io
+  services:
+  - mydb
+  stack: cflinuxfs2
